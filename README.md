@@ -9,19 +9,19 @@ particular candidate first, that candidate is selected and the procedure is comp
 consideration, the votes which placed that candidate first are distributed according
 to their next preference, and the procedure continues at step 2.
 
-For example, consider the following collection of votes for candidates 1, 2, 3 and 4:
-4 2 3 1
-2 3 4 1
-4 2 1 3
-4 3 2 1
-1 2 3 4
-1 2 3
-2 4 3
-3 2
-1 3 4 2
-4 3 2 1
-1 2 3 4
-1 3 2 4
+For example, consider the following collection of votes for candidates 1, 2, 3 and 4:<br/>
+4 2 3 1<br/>
+2 3 4 1<br/>
+4 2 1 3<br/>
+4 3 2 1<br/>
+1 2 3 4<br/>
+1 2 3<br/>
+2 4 3<br/>
+3 2<br/>
+1 3 4 2<br/>
+4 3 2 1<br/>
+1 2 3 4<br/>
+1 3 2 4<br/>
 That is, the first voter prefers candidate 4, followed by candidate 2, and so on.
 Note that voters need not list all candidates. No vote should
 contain the same candidate twice.
@@ -29,32 +29,32 @@ contain the same candidate twice.
 Out of a total 12 votes, candidate 1 has 5 first preferences, candidate 2 has 2,
 candidate 3 has 1, and candidate 4 has 4. None of them has a majority, so the
 candidate with the least first preferences (candidate 3) is eliminated, and the
-votes become:
-4 2 1
-2 4 1
-4 2 1
-4 2 1
-1 2 4
-1 2
-2 4
-2
-1 4 2
-4 2 1
-1 2 4
-1 2 4
+votes become:<br/>
+4 2 1<br/>
+2 4 1<br/>
+4 2 1<br/>
+4 2 1<br/>
+1 2 4<br/>
+1 2<br/>
+2 4<br/>
+2<br/>
+1 4 2<br/>
+4 2 1<br/>
+1 2 4<br/>
+1 2 4<br/>
 Now candidate 1 has 5 first preferences, candidate 2 has 3, and candidate 4 has 4. No
-candidate has a majority yet, so now candidate 2 is eliminated, and the votes become:
-4 1
-4 1
-4 1
-4 1
-1 4
-1
-4
-1 4
-4 1
-1 4
-1 4
+candidate has a majority yet, so now candidate 2 is eliminated, and the votes become:<br/>
+4 1<br/>
+4 1<br/>
+4 1<br/>
+4 1<br/>
+1 4<br/>
+1<br/>
+4<br/>
+1 4<br/>
+4 1<br/>
+1 4<br/>
+1 4<br/>
 There are now 11 votes, because one vote has had all its candidates eliminated.
 Now candidate 4 has 6 votes, which is a majority, and is declared the winner.
 In this case the process terminated with only two candidates, but in other cases one
